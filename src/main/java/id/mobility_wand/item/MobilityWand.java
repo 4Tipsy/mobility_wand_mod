@@ -2,7 +2,6 @@
 package id.mobility_wand.item;
 
 
-import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -16,7 +15,7 @@ public class MobilityWand implements ToolMaterial {
 
   @Override
   public int getDurability() {
-    return 100;
+    return 70;
   }
 
   @Override
